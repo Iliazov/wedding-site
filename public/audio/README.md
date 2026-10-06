@@ -1,5 +1,16 @@
-Place the licensed audio file for "Perfect" here as:
+# Чакыруу баракчасынын музыкасы
 
-perfect.mp3
+Лицензияланган аудиофайлды бул папкага төмөнкү так аталыш менен жайгаштырыңыз:
 
-Browsers usually require a user tap before audio with sound can play, so the site starts music from the invitation opening button.
+`perfect.mp3`
+
+Файлдын толук жолу `public/audio/perfect.mp3` болушу керек. Vite аны автоматтык түрдө `dist/audio/perfect.mp3` дарегине көчүрөт, ошондуктан Netlify'га жарыялангандан кийин ыр `/audio/perfect.mp3` дареги боюнча жеткиликтүү болот.
+
+Файл боюнча сунуштар:
+
+- MP3 форматы;
+- 128–192 kbps сапаты;
+- файлдын аталышы кичине тамгалар менен гана жазылышы керек: `perfect.mp3`;
+- жайгаштырууга укугуңуз бар файлды гана колдонуңуз.
+
+Музыканын жолу, үнүнүн деңгээли жана күйгүзүлүшү `src/weddingConfig.js` файлындагы `music` объектисинде жөндөлөт.
